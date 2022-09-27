@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* the link stays as the colour black unlike the defualt blueish colour */
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* once you hover over link it changes with a underline */
+
+a:visited {
+    color: black;
+}
+
+
+/* once puting you cusor over link then scolling off it turns back to the colour black */
+
+.header_link a {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* this make a margin bettewn links */
+
+
+/* in the header link the a coms after beacuse all the a code gets styled with the margin i inculed */
+
+.row {
+    margin-bottom: 10px;
+}
+
+
+/* the row means that after all rows theres margin bottom */
+
+.smallicons .col a {
+    text-align: center;
+    display: block;
+}
+
+
+/* in the small icons you have a code the code is there for the image is always right on top of the text */
+
+.smallicons .col a img {
+    margin-bottom: 10px;
+}
+
+
+/* the smallicons is there for space bettwen image and text */
+
+.footer-bg {
+    background-color: #f2f2f2;
+}
